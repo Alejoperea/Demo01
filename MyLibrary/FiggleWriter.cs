@@ -8,7 +8,7 @@ namespace MyLibrary
 {
 	public class FiggleWriter
 	{
-		public void Writer(string message)
+		public void Write(string message)
 		{
 			Console.WriteLine(Figgle.FiggleFonts.Standard.Render(message)); 
 		}
